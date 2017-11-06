@@ -1,0 +1,679 @@
+[ 2017-11-02T10:32:54+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012640s ]
+
+[ 2017-11-02T10:32:57+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019883s ]
+
+[ 2017-11-02T10:32:57+08:00 ] 127.0.0.1 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2017-11-02T10:33:04+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `jx_admin` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-11-02T10:33:05+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+ERR: 系统不支持:memcache
+
+[ 2017-11-02T10:33:31+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0118s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-11-02T10:33:32+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-11-02T10:33:33+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003851s ]
+
+[ 2017-11-02T10:33:34+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-11-02T14:23:13+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-11-02T14:23:14+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-11-02T14:23:15+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-11-02T14:23:16+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-11-02T14:23:39+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-11-02T14:23:40+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-11-02T14:23:55+08:00 ] 127.0.0.1 /admin/goods/trash.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=0 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\58c9149b3e8991eec7a902c7da9df42a.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-11-02T14:23:57+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002275s ]
+
+[ 2017-11-02T14:24:04+08:00 ] 127.0.0.1 /admin/admin/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\AdminModel.class.php 第 97 行.
+SQL: SELECT a.*,b.role_id FROM jx_admin a left join jx_admin_role b on a.id = b.admin_id   WHERE ( a.id=0 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jx_role`  [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 29 行.
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\1353f400e5887340d5d919ce4d03594d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.189963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-11-02T14:24:08+08:00 ] 127.0.0.1 /admin/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0003s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-11-02T14:24:09+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-11-02T14:25:05+08:00 ] 127.0.0.1 /admin/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.349939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2017-11-02T14:25:06+08:00 ] 127.0.0.1 /admin/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-11-02T14:25:14+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect():  E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::get(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `jx_admin_role` WHERE ( admin_id =1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0004s ]
+NOTIC: [2] Memcache::set(): No servers added to memcache connection E:\PHPstr\jxshop\ThinkPHP\Library\Think\Cache\Driver\Memcache.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+

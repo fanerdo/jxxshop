@@ -1,0 +1,1553 @@
+[ 2017-10-12T18:39:38+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+
+[ 2017-10-12T18:39:41+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-10-12T18:39:42+08:00 ] 127.0.0.1 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-10-12T18:39:50+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [2] Declaration of Admin\Model\AdminModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\AdminModel.class.php 第 7 行.
+SQL: SELECT * FROM `jx_admin` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-10-12T18:39:51+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-10-12T18:39:51+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-10-12T18:39:52+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-10-12T18:39:52+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-10-12T18:40:03+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-10-12T18:41:03+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-10-12T18:41:03+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-10-12T18:41:14+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-10-12T18:41:14+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-10-12T18:41:18+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+SQL: SELECT * FROM `jx_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE ( goods_id=53 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0106s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.goods_id=53 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=53 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-10-12T18:41:21+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-10-12T18:41:23+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 53 and b.attr_type = 2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=53 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-10-12T18:42:26+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: has E:\PHPstr\jxshop\Application\Admin\Controller\GoodsController.class.php 第 248 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHPstr\jxshop\Application\Admin\Controller\GoodsController.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0132s ]
+SQL: DELETE FROM `jx_goods_number` WHERE ( goods_id=53 ) [ RunTime:0.0011s ]
+SQL: INSERT INTO `jx_goods_number` (`goods_id`,`goods_number`,`goods_attr_ids`) VALUES ('53','100','249,252'),('53','100','250,252'),('53','100','251,252'),('53','100','249,253'),('53','100','250,253'),('53','100','251,253'),('53','100','249,254'),('53','100','250,254') [ RunTime:0.0008s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+SQL: UPDATE `jx_goods` SET `goods_number`='800' WHERE ( id=53 ) [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-10-12T18:42:27+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 53 and b.attr_type = 2 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=53 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-10-12T18:42:37+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 53 and b.attr_type = 2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=53 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-10-12T18:42:44+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/54.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 54 and b.attr_type = 2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=54 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-10-12T18:42:47+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 56 and b.attr_type = 2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=56 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-10-12T18:42:50+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 53 and b.attr_type = 2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=53 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-10-12T18:42:55+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/57.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 57 and b.attr_type = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=57 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-10-12T18:42:57+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 5,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-10-12T18:42:58+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/61.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 61 and b.attr_type = 2 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 294 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+
+[ 2017-10-12T18:43:02+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/goods_id/62.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SELECT a.*,b.attr_name,`attr_type`,`attr_input_type`,`attr_value` FROM jx_goods_attr a left join jx_attribute b on a.attr_id = b.id   WHERE ( a.goods_id = 62 and b.attr_type = 2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=62 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-10-12T23:10:50+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-10-12T23:10:52+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-10-12T23:10:52+08:00 ] 127.0.0.1 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-10-12T23:10:55+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2] Declaration of Admin\Model\AdminModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\AdminModel.class.php 第 7 行.
+SQL: SELECT * FROM `jx_admin` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-10-12T23:10:56+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-10-12T23:10:57+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-10-12T23:10:58+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-10-12T23:10:58+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-10-12T23:10:59+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+
+[ 2017-10-12T23:11:16+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( goods_sn = 123123 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `jx_goods` (`goods_name`,`goods_sn`,`cx_price`,`start`,`end`,`cate_id`,`shop_price`,`is_sale`,`market_price`,`type_id`,`goods_body`,`addtime`) VALUES ('123123','123123','0','0','0','7','11','1','111','0','&lt;p&gt;11&lt;/p&gt;','1507821076') [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0168s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('63','7'),('63','3') [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: attr_list E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 18 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 79 行.
+NOTIC: [8] Undefined variable: list E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-10-12T23:11:17+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-10-12T23:11:29+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( goods_sn = 123123 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-10-12T23:11:32+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-10-12T23:11:35+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( goods_sn = 123123 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-10-12T23:11:39+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-10-12T23:11:43+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jx_goods` (`goods_name`,`goods_sn`,`cx_price`,`start`,`end`,`cate_id`,`shop_price`,`is_sale`,`market_price`,`type_id`,`addtime`) VALUES ('1231231','JX59df862f4ac76','0','0','0','7','11','1','111','0','1507821103') [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0126s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('64','7') [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: attr_list E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 18 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0114s ]
+SQL: INSERT INTO `jx_goods_img` (`goods_id`,`goods_img`,`goods_thumb`) VALUES ('64','Uploads/2017-10-12/59df862f53e22.gif','Uploads/2017-10-12/thumb_59df862f53e22.gif') [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-10-12T23:11:44+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-10-12T23:13:20+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-10-12T23:13:23+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+
+[ 2017-10-12T23:13:36+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `jx_goods` (`goods_name`,`goods_sn`,`cx_price`,`start`,`end`,`cate_id`,`shop_price`,`is_sale`,`is_hot`,`is_new`,`is_rec`,`market_price`,`type_id`,`addtime`,`goods_img`,`goods_thumb`) VALUES ('123123','JX59df86a0c7e12','0','0','0','3','111','1','1','1','1','222','0','1507821216','Uploads/2017-10-12/59df86a0c8311.gif','Uploads/2017-10-12/thumb_59df86a0c8311.gif') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0136s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('65','3'),('65','5') [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: attr_list E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 18 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0104s ]
+SQL: INSERT INTO `jx_goods_img` (`goods_id`,`goods_img`,`goods_thumb`) VALUES ('65','Uploads/2017-10-12/59df86a0d2010.gif','Uploads/2017-10-12/thumb_59df86a0d2010.gif') [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-10-12T23:13:37+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-10-12T23:13:47+08:00 ] 127.0.0.1 /admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-10-12T23:13:49+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 5,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-10-12T23:13:53+08:00 ] 127.0.0.1 /Admin/Goods/dels/id/63.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+SQL: UPDATE `jx_goods` SET `isdel`='0' WHERE ( id=63 ) [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-10-12T23:13:54+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 5,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-10-12T23:13:55+08:00 ] 127.0.0.1 /Admin/Goods/dels/id/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+SQL: UPDATE `jx_goods` SET `isdel`='0' WHERE ( id=64 ) [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-10-12T23:13:56+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 5,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-10-12T23:13:57+08:00 ] 127.0.0.1 /Admin/Goods/dels/id/65.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+SQL: UPDATE `jx_goods` SET `isdel`='0' WHERE ( id=65 ) [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-10-12T23:13:58+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( isdel=1 ) LIMIT 5,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: cate_id E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 22 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 28 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 29 行.
+NOTIC: [8] Undefined index: intro_type E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 30 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 35 行.
+NOTIC: [8] Undefined index: is_sale E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 36 行.
+NOTIC: [8] Undefined index: keyword E:\PHPstr\jxshop\Application\Runtime\Cache\Admin\9ce8eac8d2713f300aacb86a396bc850.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-10-12T23:15:17+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-10-12T23:15:37+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `jx_goods` (`goods_name`,`goods_sn`,`cx_price`,`start`,`end`,`cate_id`,`shop_price`,`is_sale`,`is_hot`,`is_new`,`is_rec`,`market_price`,`type_id`,`goods_body`,`addtime`,`goods_img`,`goods_thumb`) VALUES ('123123','JX59df8719b38e1','0','0','0','8','111','1','1','1','1','11','0','&lt;p&gt;1&lt;/p&gt;','1507821337','Uploads/2017-10-12/59df8719b3e44.jpg','Uploads/2017-10-12/thumb_59df8719b3e44.jpg') [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0131s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('66','7') [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: attr_list E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 18 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0107s ]
+SQL: INSERT INTO `jx_goods_img` (`goods_id`,`goods_img`,`goods_thumb`) VALUES ('66','Uploads/2017-10-12/59df8719bfb7b.gif','Uploads/2017-10-12/thumb_59df8719bfb7b.gif'),('66','Uploads/2017-10-12/59df8719c0e1a.jpg','Uploads/2017-10-12/thumb_59df8719c0e1a.jpg') [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-10-12T23:15:38+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+
+[ 2017-10-12T23:19:12+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `jx_goods` (`goods_name`,`goods_sn`,`cx_price`,`start`,`end`,`cate_id`,`shop_price`,`is_sale`,`is_hot`,`is_new`,`market_price`,`type_id`,`addtime`,`goods_img`,`goods_thumb`) VALUES ('1231232','JX59df87f056b43','0','0','0','3','11','1','1','1','22','0','1507821552','Uploads/2017-10-12/59df87f057055.gif','Uploads/2017-10-12/thumb_59df87f057055.gif') [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0148s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('67','7') [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: attr_list E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 18 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0140s ]
+SQL: INSERT INTO `jx_goods_img` (`goods_id`,`goods_img`,`goods_thumb`) VALUES ('67','Uploads/2017-10-12/59df87f063aeb.jpg','Uploads/2017-10-12/thumb_59df87f063aeb.jpg') [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-10-12T23:19:13+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SELECT * FROM `jx_type`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-10-12T23:19:27+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 6 行.
+NOTIC: [8] Undefined index: validate E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHPstr\jxshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `jx_goods` (`goods_name`,`goods_sn`,`cx_price`,`start`,`end`,`cate_id`,`shop_price`,`is_sale`,`is_hot`,`is_new`,`market_price`,`type_id`,`addtime`,`goods_img`,`goods_thumb`) VALUES ('1231232','JX59df87ffcc617','0','0','0','3','11','1','1','1','22','0','1507821567','Uploads/2017-10-12/59df87ffccad7.gif','Uploads/2017-10-12/thumb_59df87ffccad7.gif') [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0153s ]
+SQL: INSERT INTO `jx_goods_cate` (`goods_id`,`cate_id`) VALUES ('68','7') [ RunTime:0.0015s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: attr_list E:\PHPstr\jxshop\Application\Admin\Model\GoodsAttrModel.class.php 第 18 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\PHPstr\jxshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0114s ]
+SQL: INSERT INTO `jx_goods_img` (`goods_id`,`goods_img`,`goods_thumb`) VALUES ('68','Uploads/2017-10-12/59df87ffd4082.gif','Uploads/2017-10-12/thumb_59df87ffd4082.gif') [ RunTime:0.0015s ]
+

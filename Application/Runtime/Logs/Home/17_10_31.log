@@ -1,0 +1,48 @@
+[ 2017-10-31T20:28:07+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+
+[ 2017-10-31T22:44:20+08:00 ] 127.0.0.1 /Home/User/callback.html?code=d07499a293615ae01bd021b20fc8cd20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0112s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\PHPstr\jxshop\Application\Home\Controller\UserController.class.php 第 127 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\PHPstr\jxshop\Application\Home\Controller\UserController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `jx_user` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `jx_user` WHERE ( sina=1847948450 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-10-31T22:44:21+08:00 ] 127.0.0.1 /Home/User/callback.html?code=d07499a293615ae01bd021b20fc8cd20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\PHPstr\jxshop\Application\Home\Controller\UserController.class.php 第 127 行.
+ERR: get access token failed.invalid_grant
+
+[ 2017-10-31T22:44:21+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-10-31T22:44:32+08:00 ] 127.0.0.1 /Home/User/callback.html?code=d07499a293615ae01bd021b20fc8cd20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\PHPstr\jxshop\Application\Home\Controller\UserController.class.php 第 127 行.
+ERR: get access token failed.invalid_grant
+

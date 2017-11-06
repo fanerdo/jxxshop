@@ -1,0 +1,129 @@
+[ 2017-10-26T15:30:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013584s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0011s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot = 1 ) LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec = 1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new = 1 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start<1509003010 and end >1509003010 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tree E:\PHPstr\jxshop\Application\Admin\Model\CategoryModel.class.php 第 22 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021311s ]
+
+[ 2017-10-26T15:30:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+
+[ 2017-10-26T15:30:13+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-10-26T15:30:13+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-10-26T15:30:18+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHPstr\jxshop\Application\Home\Model\CartModel.class.php 第 82 行.
+
+[ 2017-10-26T15:30:19+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) E:\PHPstr\jxshop\Application\Admin\Model\GoodsModel.class.php 第 378 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot = 1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec = 1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new = 1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start<1509003019 and end >1509003019 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8,9,12,7) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec = 1 and parent_id=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (13,10) ) LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tree E:\PHPstr\jxshop\Application\Admin\Model\CategoryModel.class.php 第 22 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (11) ) LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
